@@ -1,36 +1,44 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
-.boding{
-    height: 700px;
-    color:#fff
+.body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background:#fff;
 }
-.heading{
+img {
+	max-width: 100%;
+	display: block;
+}
+
+.container{
+    width: 1170px;
+    height: 0 auto;
+}
+
+.menu_bar{
+    margin-top: 40px;
+    margin-left: 375px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu_bar_logo{
 
 }
-.heding_grow{
+.menu_hreff{
+    width: 533px;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.line_bar{
+    justify-content: space-around;
+    align-items:center;
+}
 
-}
-.Logo_img{
-    padding-top: 40;
-    padding-left: 375;
-    padding-bottom: 620px;
-}
-.text_growe{
-    padding-top: 45px;
-    padding-left: 424px;
-    padding-bottom: 625px;
-}
-.logotext{
-
-}
-.heding_Hreff_line{
-    padding-left: 1012px;
-    padding-top: 61px;
-    padding-bottom: 632px;
-}
-.heding_link1{
+.line_1{
     color: #F25822;
     font-family: Gilroy-SemiBold;
     font-size: 14px;
@@ -39,7 +47,7 @@
     line-height: normal;
 
 }
-.heding_link{
+.line_2{
     color: #000;
     font-family: Gilroy-Medium;
     font-size: 14px;
@@ -48,15 +56,20 @@
     line-height: normal;
 
 }
-.HomeMeta{
+.home_meta{
+    margin-top: 40px;
+    margin-left: 373px;
+    margin-bottom: 162px;
+    display: flex;
+    gap: 40px;
+}
+.home_meta_cnt{
+    Width: 522px;
+    Height: 374px;
 
 }
-.title{
-
-}
-.title_text{
-    padding-top: 164px;
-    padding-left: 373px;
+.home_meta_title_text{
+    
     color: #000;
     font-family: Gilroy-Bold;
     font-size: 60px;
@@ -65,12 +78,12 @@
     line-height: normal;
 
 }
-.sub_title{
+.home_meta_sub_title{
 
 }
-.subtitle_text{
-    padding-top: 403px;
-    padding-left: 373px;
+.home_meta_subtitle_text{
+    margin-top: 17px;
+    width: 466px;
     color: #888;
     font-family: Gilroy-Medium;
     font-size: 20px;
@@ -78,13 +91,31 @@
     font-weight: 400;
     line-height: normal;
 }
-.sub_button{
-
+.home_meta_sub_button{
+    margin-top: 37px;
+    display: flex;
+	gap: 72px;
 }
-.buttou{
-
+.home_meta_sub_button__button{
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+	color: #ffffff;
+	background: #F25822;
+	border-radius: 50px;
+	padding: 15px 30px;
+	border: none;
+	cursor: pointer;
 }
-.watch_wideo{
+
+.btn-play{
+    background: #ffffff;
+	border-radius: 50px;
+	padding: 15px 30px;
+	border: none;
+	cursor: pointer;
     color: #AAA;
     font-family: Gilroy-Bold;
     font-size: 15px;
@@ -92,42 +123,16 @@
     font-weight: 400;
     line-height: normal;
 }
-.Image_mapping{
-    padding-top: 162.71px;
-    padding-left: 935.94px;
-    padding-bottom: 162.44px;
+.home_meta_Image_mapping{
+    
 
 }
-.Brand{
-
-}
-.Brand_hreff1{
-padding-top: 97px;
-padding-bottom: 96px;
-padding-left: 345px;
-}
-.Brand_hreff2{
-    padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 533px;
-}
-.Brand_hreff3{
-    padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 761px;
-}
-.Brand_hreff4{
-    padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 969px;
-}
-.Brand_hreff5{
-    padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 1177px;
-}
-.Brand_hreff6{
-    padding-top: 97px;
-    padding-bottom: 96px;
-    padding-left: 1385px;
+.Brand_line{
+	margin-top: 97px; 
+    margin-right: 375px;
+    margin-bottom:  96px;
+    margin-left:  345px;
+    display: flex;
+	justify-content: space-between;
+    gap: 48px;
 }
